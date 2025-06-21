@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Courier New', monospace;
+  padding: 2rem;
+  line-height: 1.8;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+header h1 span {
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.tags {
+  margin-top: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-right: 10px;
+  box-shadow: 0 0 5px white;
+}
+
+.intro {
+  margin: 2rem 0;
+}
+
+.highlight {
+  background: #fff;
+  color: #000;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 0 10px white;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: white;
+  color: black;
+  box-shadow: 0 0 20px white;
+}
+
+.skills {
+  margin: 3rem 0 2rem;
+}
+
+.skills h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px white;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 1rem;
+  font-size: 2rem;
+  justify-items: center;
+}
+
+.skill-grid i {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+  transition: transform 0.3s;
+}
+
+.skill-grid i:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px white;
+}
+
+.projects {
+  margin-top: 3rem;
+}
+
+.projects h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px white;
+}
+
+.project-card {
+  background: #111;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px white;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  color: #666;
+}
+
+.socials a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px white;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #ccc;
+}
